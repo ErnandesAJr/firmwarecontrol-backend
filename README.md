@@ -1,6 +1,6 @@
-# Upload Project - Backend
+# Firmware Project - Backend
 
-Node.js application server for file upload 
+Node.js application server for firmware upload 
 
 ## Setup for development
 
