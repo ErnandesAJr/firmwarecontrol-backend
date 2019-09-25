@@ -4,7 +4,7 @@ const server = require('http').Server(app.server);
 require('dotenv').config();
 
 const context = {
-    express: process.env.SERVER_PORT || 3000,
+    express: process.env.PORT || 3000,
     environment: process.env.NODE_ENV || 'development'
 };
 
