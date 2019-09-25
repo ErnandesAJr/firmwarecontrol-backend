@@ -11,11 +11,15 @@ Create the file .env at the root of the project and set the following properties
 # NODE_ENV is the enviroment variable to project context, should be 'local'
 STORAGE_TYPE=local
 
-# SERVER_PORT has to be the URL where this server runs
-SERVER_PORT=3000
+# PORT has to be the URL where this server runs
+PORT=3000
 
-# Variables to configure MONGODB database
-MONGO_URL=
+# Variables to configure POSTGRESS database
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+
 
 ```
 
@@ -40,21 +44,6 @@ AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_DEFAULT_REGION=
 
+NODE_ENV=production
 
-SERVER_PORT=
-NODE_ENV=
-
-
-POSTGRES_USER=
-POSTGRES_PASSWORD=
-POSTGRES_DB=
-POSTGRES_HOST=
-
-APP_URL=
-
-STORAGE_TYPE=
-
-AWS_BUCKET_NAME=
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=
+DATABASE_URL=
