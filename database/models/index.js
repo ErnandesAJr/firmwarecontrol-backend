@@ -14,17 +14,8 @@ if (process.env.NODE_ENV === 'production'){
             var config = sequelize.connectionManager.config;
             console.log('sequelize-heroku: Connected to ' + config.host + ' as ' + config.username + '.');
 
-            // sequelize.query('SELECT * from firmwares').then(function (res) {
-            //     console.log('1+1=' + res);
-            // });
-
         }).catch(function (err) {
             var config = sequelize.connectionManager.config;
-            console.log(config.host)
-            console.log(config.user)
-            console.log(config.password)
-
-
             console.log('Sequelize: Error connecting ' + config.host + ' as ' + config.user + ': ' + err);
         });
     } else {
