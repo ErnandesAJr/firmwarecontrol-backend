@@ -25,11 +25,13 @@
     "multer-s3": "^2.9.0",
     "pg": "^7.11.0",
     "sequelize": "^5.12.3",
-    "sequelize-heroku": "^2.1.4"
+    "sequelize-heroku": "^2.1.4",
+    "morgan": "^1.9.1",
+    "sequelize-cli": "^5.5.0"
   },
   "devDependencies": {
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.2",
-    "sequelize-cli": "^5.5.0"
+
+    "nodemon": "^1.19.2"
+
   }
 }
