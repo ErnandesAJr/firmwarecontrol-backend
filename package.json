@@ -26,7 +26,6 @@
     "pg": "^7.11.0",
     "sequelize": "^5.12.3",
     "sequelize-heroku": "^2.1.4"
-
   },
   "devDependencies": {
     "morgan": "^1.9.1",
