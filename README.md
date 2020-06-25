@@ -1,10 +1,11 @@
-# Firmware Project - Backend
+## 💂‍♂️ Firmware Project - Backend
 
-Node.js application server for firmware upload 
+Node.js application server for firmware upload
+Project made to be the backend of [Firmware-Frontend](https://github.com/ErnandesAJr/firmwarecontrol-frontend).
 
-## Setup for development
+## 👾 Setup for development
 
-``` bash
+```bash
 # change the urls into .env file
 Create the file .env at the root of the project and set the following properties as you need:
 
@@ -12,7 +13,7 @@ Create the file .env at the root of the project and set the following properties
 STORAGE_TYPE=local
 
 # PORT has to be the URL where this server runs
-PORT=3000
+PORT=
 
 # Variables to configure POSTGRESS database
 POSTGRES_USER=
@@ -23,20 +24,10 @@ POSTGRES_HOST=
 
 ```
 
-## Install dependencies
+## 🔭 Setup for production
+
 ```bash
-npm install
-```
-
-## Serve the application
-```bash
-npm start
-```
-
-## Setup for production
-
-``` bash
-# STORAGE_TYPE is the enviroment variable to project context, should be 's3' 
+# STORAGE_TYPE is the enviroment variable to project context, should be 's3'
 STORAGE_TYPE=s3
 
 AWS_BUCKET_NAME=
@@ -47,3 +38,16 @@ AWS_DEFAULT_REGION=
 NODE_ENV=production
 
 DATABASE_URL=
+```
+
+## 🚀 Install dependencies
+
+```bash
+npm install
+```
+
+## 🌠 Serve the application
+
+```bash
+npm start
+```
